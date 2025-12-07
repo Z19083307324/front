@@ -416,7 +416,7 @@ export default {
     handleDetailGuideSkip(key) {
       this.showDetailGuideDialog = false
       localStorage.setItem(`guide_seen_${key}`, 'true')
-      this.$message.info('已跳过来详情页引导')
+      this.$message.info('已跳过了详情页引导')
     },
     // 开始编辑
     startEdit() {
